@@ -1,0 +1,229 @@
+.details {
+    background-color: black;
+    color: white;
+    /* position: fixed; */
+    
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+}
+.content{
+    color: white;
+}
+.content>form>h3{
+    color:rgba(172, 196, 36);
+
+}
+.section2{
+    margin:100px
+}
+.section2>ol{
+    margin:20px;
+      font-size:25px;
+  }
+.section2>h2>b{
+    color:#acc424;
+    font-size: larger;
+}
+.content>form>input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height:30px;
+    width:300px;
+    background-color: black;
+    border: 0.5px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    cursor: auto;
+    color: white;  
+}
+.content>form>textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height:30px;
+    width:300px;
+    background-color: black;
+    border: 0.5px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    cursor: auto;
+    white-space: pre;
+    color: white;  
+}
+.main-content {
+    display: flex;
+}
+.modal{
+    background-color: #2d2c2c;
+    height:auto ;
+    min-width: 450px;
+    border-radius: 10%;
+    border: 0.5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-navbar {
+    width:25%;
+    background-color:#2d2c2c ;
+    height: 100vh ;
+    margin-bottom: -150px;
+}
+
+.website {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.oppheader .name {
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    padding-top: 10px;
+    font-size: 40px;
+    color: #acc424;
+    margin-bottom: 0px;
+}
+
+.oppheader .desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 180px;
+    /* Centers the element horizontally */
+    margin-right: 180px;
+    margin-top: -25px;
+}
+
+.btns>button{
+    background-color:#acc424;
+    align-items: center;
+    justify-content: center;
+    height:35px;
+    width:100px;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:20px
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.row .col1>p {
+    padding-bottom: 20px;
+}
+
+.row .col2>p {
+    padding-bottom: 20px;
+}
+
+.row .col2 {
+    background-color: rgba(172, 196, 36);
+    color: black;
+    width: 300px;
+    border-radius: 40px;
+}
+
+.row .col2 .col2-2 {
+    margin-left: 30px;
+}
+
+.row .col1 .money {
+    display: flex;
+    gap: 50px
+}
+
+.details .apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+
+    margin-bottom: 100px;
+    padding-right: 200px
+}
+
+.details .apply>button {
+    background-color: #acc424;
+    height: 45px;
+    width: 100px;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+    /* margin-bottom: 50px; */
+}
+.rounds-map .card3{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+    border:1px solid gray;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.custom-button {
+    background-color: #acc424;
+    height: 45px;
+    width: 150px;
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+    /* margin-bottom: 50px; */
+}
+
+
+@media (max-width: 900px) {
+    .row {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        /* gap:580px; */
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .details{
+        height:100vh;
+        background-color: black;
+        color: white;
+    }
+    .details {
+        background-color: black;
+        color: white;
+        /* position: fixed; */
+        
+        min-width: 100%;
+        min-height: 130%;
+        width: auto;
+        height: auto;
+    }
+    .row .col1 {
+        margin-left: 20%;
+    }
+
+    .row .col2 {
+        margin-left: 20%;
+    }
+}

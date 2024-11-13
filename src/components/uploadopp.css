@@ -1,0 +1,117 @@
+.upload-form {
+    height: 1800px;
+    background-color: black;
+    color: white;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    /* left: 16%; */
+    right:32%;
+    padding-bottom: 100px;
+    padding-top: 80px;
+
+}
+.upload-form .opp-header>img{
+    height:160px;
+    width:160px;
+    margin-left: 20%;
+}
+.upload {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+    background-color: #6a6a68;
+    overflow-y: auto;
+  }
+.opp-header{
+    align-items: center;
+   
+    margin-left: 12%;
+    color:#acc424;  
+}
+.profile>p{
+     font-weight:normal;
+     margin-top: 30px;
+     margin-bottom: 5px;
+}
+.profile>input{
+    background-color: black;
+    color: white;
+    height:25px;
+    width:400px;
+    border-radius: 10px;
+
+}
+
+.profile>textarea{
+    background-color: black;
+    color: white;
+    height:25px;
+    width:400px;
+    border-radius: 10px;
+
+}
+.profile .extras>input{
+    background-color: black;
+    color: white;
+    height:25px;
+    width:400px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+.profile>select{
+    background-color: black;
+    color: white;
+    height:30px;
+    width:405px; 
+    border-radius: 10px;
+    position:relative
+}
+.opp-footer{
+    padding-left: 100px;
+    padding-top: 70px;
+    
+}
+.opp-footer>button{
+    background-color:#acc424;
+    align-items: center;
+    justify-content: center;
+    height:35px;
+    width:80px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .upload-form {
+        height: 1800px;
+        background-color: black;
+        color: white;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    
+        /* left: 16%; */
+        right:12%;
+        padding-bottom: 100px;
+        padding-top: 80px;
+    
+    }
+}

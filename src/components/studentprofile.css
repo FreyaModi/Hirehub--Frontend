@@ -1,0 +1,58 @@
+.form {
+    height: 630px;
+    background-color: black;
+    color: white;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+.header{
+    align-items: center;
+    margin-top:-10%;
+    margin-left: 10%;
+    color:#acc424;  
+}
+.sub-profile>p{
+     font-weight:normal;
+     margin-top: 30px;
+     margin-bottom: 5px;
+}
+.sub-profile>input{
+    background-color: black;
+    color: white;
+    height:25px;
+    width:300px;
+    border-radius: 10px;
+
+}
+.sub-profile>select{
+    background-color: black;
+    color: white;
+    height:30px;
+    width:305px; 
+    border-radius: 10px;
+}
+.footer{
+    padding-left: 50px;
+    padding-top: 40px;
+    
+}
+.footer>button{
+    background-color:#acc424;
+    align-items: center;
+    justify-content: center;
+    height:35px;
+    width:80px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+}

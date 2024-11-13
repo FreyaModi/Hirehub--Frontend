@@ -1,0 +1,193 @@
+.dashboard {
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #2d2c2c;
+    height: 60px;
+}
+.full{
+    display: flex;
+}
+.navbar .message {
+    align-items: center;
+    justify-content: center;
+    margin-left: 6%;
+    color: #acc424;
+    font-size: 23px;
+    font-weight: 500;
+    position: fixed;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: 4vh;
+}
+
+.button > button {
+    background-color: #acc424;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-left: 80px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.dashboard .main {
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 180px;
+
+}
+.right-navbar1 {
+    width:22%;
+    background-color:#2d2c2c ;
+    height: 100vh ;
+    /* margin-bottom: -50px; */
+    /* float:right; */
+   /* margin-bottom: 10%; */
+    color: white;
+    /* position: fixed; */
+    /* margin-right: 10px; */
+}
+.right-navbar1>h3{
+    margin:20px;
+    color: #acc424;
+}
+h4{
+    margin:20px;
+    color: #ffffff;
+    margin-top: 15%;
+}
+.select-city {
+    width: 200px;
+    height: 40px;
+    background-color: #232222;
+    color: white;
+    font-size: medium;
+    margin-left: 5%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .inputs>input{
+    width: 185px;
+    height: 20px;
+    background-color: #232222;
+    color: white;
+    font-size: medium;
+    margin-left: 5%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* margin-top: 5%; */
+  }
+  
+  
+
+@media (max-height: 900px) {
+}
+@media (max-width: 900px) {
+    .dashboard .main {
+        margin-left: 0; 
+    }
+
+    .main > h2 {
+        max-width: 70%;
+        margin-left: 10%; 
+    }
+
+    .main .card {
+        max-width: 80%
+    }
+    .main .card {
+        margin-left: 9.5%;
+    }
+
+    .card .content .leftside {
+        margin-left: 2%; 
+        float: none; 
+    }
+
+    .card .content .rightside {
+        margin-right: 5%; 
+        float: none; 
+    }
+
+    .card .content .leftside .name {
+        font-size: 18px; 
+        margin-top: 5px; 
+    }
+
+    .card .content .leftside .salary {
+        gap: 10px;
+    }
+
+    .card .content .rightside .buttons > button {
+        height: 30px; 
+        width: 70px; 
+        margin: 10px; 
+        font-size: 12px; 
+       cursor: pointer;
+    }
+}
+
+
+
+.main > h2 {
+    color: #acc424;
+}
+
+.main .card {
+    height: 100px;
+    border-radius: 20px;
+    background-color: #2d2c2c;
+    width: 100%;
+    margin-bottom: 25px;
+    width: 1000px;
+}
+
+.card .content .leftside {
+    float: left;
+    margin-left: 40px;
+}
+
+.card .content .leftside .name {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.card .content .leftside .salary {
+    gap: 25px;
+    display: flex;
+}
+
+.card .content .rightside {
+    float: right;
+    margin-right: 40px;
+}
+
+.card .content .rightside .buttons > button {
+    height: 40px;
+    width: 95px;
+    margin: 15px;
+    margin-bottom: -5px;
+    background-color: #acc424;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
